@@ -1,11 +1,31 @@
 body {
-background-color: sienna;
+background-color: lightgrey;
 color: black;
 
 } 
 
 h4 {
-  color: lightcyan;
-
+  color: olivedrab;
 
 }
+body ul {color: black;
+
+}
+
+img{
+  width: 200px;
+}
+
+a {
+    color: black 
+
+       
+}
+a {
+  text-decoration: none;
+  }
+
+  a
+  { font-weight: bold;
+
+  }  
