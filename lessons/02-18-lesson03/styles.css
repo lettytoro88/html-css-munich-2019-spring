@@ -6,19 +6,25 @@ color: black;
 
 h4 {
   color: olivedrab;
+  font-family: 'Cedarville Cursive';font-size: 22px;
 
 }
 body ul {color: black;
 
+  h3 {
+
+    font-family: 'Chau Philomene One';font-size: 22px;
+  }
+
 }
 
 img{
-  width: 200px;
+  width: 250px;
+  
 }
 
 a {
-    color: black 
-
+    color: darkred
        
 }
 a {
@@ -26,6 +32,6 @@ a {
   }
 
   a
-  { font-weight: bold;
+  { font-style: italic;
 
   }  
