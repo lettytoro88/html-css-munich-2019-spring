@@ -1,11 +1,20 @@
 body {
-  background-color: sandybrown;
+
+  font-family: 'Raleway', sans-serif;
 }
 
 #division01 {
-  background-color: cadetblue;
+  background-color: olive;
+  padding-left: 20px
+    
 }
 
 #division02 {
-  background-color: white;
+  background-color: pink;
+  padding-left: 20px
+}
+
+#division03 {
+  background-color: olive;
+  padding-left: 20px
 }
