@@ -1,0 +1,73 @@
+p{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+div{ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  }
+#my-id{
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  font-size: 22px;
+  background-color: red;
+}
+
+.box{
+  margin-top: 50px;
+}
+
+.box.blue {
+    color: yellow;
+}
+
+.box.large {
+    font-family: 'Aclonica';font-size: 30px
+}
+
+div .box {
+  color: blue;
+  background-color: pink; 
+}
+/* space means child of the element */
+div .box p{
+      background-color: pink;
+}
+ 
+
+/* applies to DIRECT children */
+article > p {
+    background-color: red;
+}
+
+/* comma adds styles to BOTH elements*/
+p, div {
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+div .box.large {
+  color: brown;
+}
+
+#my-blue {
+  background-color: blue;
+}
+
+#my-file {
+  background-color: pink;
+}
+  
+body > p {
+  color: yellow;
+} 
+
+.box.blue p:first-child {
+  color:blue;
+}
+  
