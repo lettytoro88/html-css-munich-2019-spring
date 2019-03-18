@@ -1,0 +1,40 @@
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+ }
+
+#my-id{
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  font-size: 22px;
+}
+
+.box{
+    margin-top: 50px;
+}
+
+.box.blue {
+  color: blue
+}
+
+.large {
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div.box {
+  color: red;
+}
+article > p {
+  background-color: black;
+}
+p, div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+div p:hover {
+  color: aquamarine;
+  font-size: larger;
+}
+
